@@ -3,3 +3,57 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-style: double;
+    border-color: black;
+}
+.two {
+    display: flex;
+    border-style: double;
+    border-color: black;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.three {
+    border-style: double;
+    border-color: black;
+    padding: 50px;
+}
+.three ul{
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+.three div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article p {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
